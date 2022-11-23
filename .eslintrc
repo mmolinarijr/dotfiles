@@ -22,7 +22,7 @@
     },
     "plugins": ["prettier", "react", "react-hooks"],
     "rules": {
-        "react/jsx-filename-extension": 0,
+        "react/jsx-filename-extension": 1,
         "no-param-reassign": 0,
         "react/prop-types": 1,
         "react/require-default-props": 0,
@@ -43,10 +43,10 @@
         "prettier/prettier": [
             2,
             {
-                "bracketSpacing": false,
+                "bracketSpacing": true,
                 "printWidth": 120,
                 "singleQuote": true,
-                "trailingComma": "none",
+                "trailingComma": "es5",
                 "tabWidth": 2,
                 "useTabs": false,
                 "endOfLine": "auto"
