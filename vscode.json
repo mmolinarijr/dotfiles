@@ -1,0 +1,42 @@
+{
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.linkedEditing": true,
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "prettier.arrowParens": "always",
+    "prettier.bracketSameLine": true,
+    "prettier.bracketSpacing": true,
+    "prettier.embeddedLanguageFormatting": "auto",
+    "prettier.htmlWhitespaceSensitivity": "css",
+    "prettier.insertPragma": false,
+    "prettier.printWidth": 120,
+    "prettier.proseWrap": "preserve",
+    "prettier.quoteProps": "as-needed",
+    "prettier.requirePragma": false,
+    "prettier.semi": true,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4,
+    "prettier.trailingComma": "es5",
+    "prettier.useTabs": false,
+    "prettier.endOfLine": "lf",
+    "prettier.vueIndentScriptAndStyle": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "eslint.options": {},
+    "eslint.codeActionsOnSave.rules": null,
+    "eslint.alwaysShowStatus": true,
+    "javascript.format.insertSpaceAfterConstructor": true,
+    "git.autofetch": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "html.format.indentInnerHtml": true,
+    "css.lint.duplicateProperties": "warning",
+    "workbench.colorTheme": "Atom One Dark",
+    "tabnine.experimentalAutoImports": true,
+    "emmet.excludeLanguages": []
+}
