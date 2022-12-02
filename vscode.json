@@ -38,5 +38,9 @@
     "css.lint.duplicateProperties": "warning",
     "workbench.colorTheme": "Atom One Dark",
     "tabnine.experimentalAutoImports": true,
-    "emmet.excludeLanguages": []
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    }
 }
