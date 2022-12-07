@@ -42,5 +42,10 @@
     "explorer.confirmDelete": false,
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
-    }
+    },
+    "settingsSync.ignoredExtensions": [],
+    "editor.detectIndentation": false,
+    "settingsSync.ignoredSettings": [
+    
+    ]
 }
