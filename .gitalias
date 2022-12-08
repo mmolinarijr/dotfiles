@@ -1,0 +1,8 @@
+[alias]
+	acl = !git add -A && git commit -m
+	ac = !git add . && git commit -m
+	all = !git add -A && git commit -m "Changes" -S
+	s = status
+	p = push
+	alias = ! git config --get-regexp ^alias\\. | sed -e s/^alias\\.// -e s/\\ /\\ =\\ /
+	ps = ! git push origin HEAD:refs/for/master
