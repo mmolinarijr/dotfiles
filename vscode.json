@@ -1,18 +1,28 @@
 {
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.linkedEditing": true,
+    "editor.detectIndentation": false,
+    "editor.accessibilitySupport": "off",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
     "[css]": {
         "editor.defaultFormatter": "vscode.css-language-features"
     },
+    "[powershell]": {
+        "editor.defaultFormatter": "ms-vscode.powershell"
+    },
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
     "prettier.arrowParens": "always",
-    "prettier.bracketSameLine": true,
     "prettier.bracketSpacing": true,
     "prettier.embeddedLanguageFormatting": "auto",
-    "prettier.htmlWhitespaceSensitivity": "css",
+    "prettier.htmlWhitespaceSensitivity": "strict",
     "prettier.insertPragma": false,
     "prettier.printWidth": 120,
     "prettier.proseWrap": "preserve",
@@ -24,28 +34,26 @@
     "prettier.trailingComma": "es5",
     "prettier.useTabs": false,
     "prettier.endOfLine": "lf",
-    "prettier.vueIndentScriptAndStyle": false,
+    "prettier.singleAttributePerLine": true,
+    "javascript.format.insertSpaceAfterConstructor": true,
     "typescript.updateImportsOnFileMove.enabled": "always",
     "eslint.options": {},
     "eslint.codeActionsOnSave.rules": null,
     "eslint.alwaysShowStatus": true,
-    "javascript.format.insertSpaceAfterConstructor": true,
+    "git.confirmSync": false,
     "git.autofetch": true,
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "html.format.indentInnerHtml": true,
-    "css.lint.duplicateProperties": "warning",
-    "workbench.colorTheme": "Atom One Dark",
     "tabnine.experimentalAutoImports": true,
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact"
-    },
     "settingsSync.ignoredExtensions": [],
-    "editor.detectIndentation": false,
-    "settingsSync.ignoredSettings": [
-    
-    ]
+    "settingsSync.ignoredSettings": [],
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "css.lint.duplicateProperties": "warning",
+    "cSpell.language": "en,pt-BR",
+    "cSpell.languageSettings": [],
+    "html.format.indentInnerHtml": true,
+    "html.format.wrapAttributes": "preserve-aligned",
+    "html-css-class-completion.enableEmmetSupport": true,
+    "html.format.extraLiners": "d"
 }
